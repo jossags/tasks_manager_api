@@ -8,7 +8,7 @@ class Task(models.Model):
 
  #StateList
     status_choices=[
-        ('to do', 'To Do'),
+        ('todo', 'To Do'),
         ('doing', 'Doing'),
         ('done', 'Done'),
     ]   
