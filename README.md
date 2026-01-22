@@ -40,3 +40,9 @@ DELETE      /api/tasks/<id>/    Delete a task.
 # Security (SECRET_KEY)
 Note: For practical purposes of this challenge, the SECRET_KEY is kept in the code. D:
 
+# Technical Decisions & Tools
+1. **Django REST Framework:** Used primarily because the challenge required it haha, but it was especially useful as it handled response codes and data conversion to JSON.
+2. **Token Authentication:** It literally saved my life; it created the ENTIRE authentication system. I used it because it is very comprehensive.
+3. **Django ORM:** Mainly for productivity, as the code is faster to write; it also comes with built-in security and, from what I understand, even though I'm using SQLite, if we wanted to switch to MySQL later, the ORM would do that job for me :D
+4. **Git & GitHub:** Honestly, it's the first time I've done commits and such, so I used the tools listed in parentheses () in the challenge; it was more of a requirement than a personal reference for me haha.
+5. **Thunder Client:** I used it because it's very simple; there I could test the endpoints, headers, and JSON validation, as well as the filters. It was very helpful and its interface is very user-friendly.
